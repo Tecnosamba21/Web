@@ -48,8 +48,11 @@ h2 {
     position: absolute;
 }
 
-#repo-move {
-    background-image: linear-gradient(to right, rgb(25, 0, 255), rgb(30, 255, 0));
-    margin-top: 4%;
-    margin-left: 35%;
+.repo-title {
+    font-family: Protest Guerrilla;
+    padding-left: 8%;
+    font-size: 35px;
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(68, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
