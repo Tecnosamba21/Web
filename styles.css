@@ -73,3 +73,52 @@ h2 {
 .repo-div-description {
     margin-left: 12%;
 }
+
+.news-div {
+    margin-top: 30%;
+}
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    background-color: grey;
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+    margin-left: 90%;
+  }
+  
+  .menu-button span {
+    display: block;
+    height: 2px;
+    width: 30px;
+    margin: 7px 0;
+    background: #333;
+  }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-list {
+    flex-direction: column;
+}
+
+.nav {
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    background-color: grey;
+    border-radius: 10%;
+    width: 200px;
+    height: 270px;
+}
+
+.nav-list li {
+    padding-left: 5px;
+    font-size: 20px;
+}
