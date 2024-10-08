@@ -19,20 +19,23 @@
     <span></span>
     <span></span>
   </button>
-
-  <nav class="nav">
-    <ul class="nav-list">
-      <li><a href="#">tasting</a></li>
-      <li><a href="#">tasting</a></li>
-      <li><a href="#">tasting</a></li>
-      <li><a href="#">tasting</a></li>
-      <li><a href="#">tasting</a></li>
-    </ul>
-  </nav>
-
+  
+  <div class="nav-div">
+    <nav class="nav">
+      <div class="social-link" onclick="window.open(github)">
+        <!-- Put an icon about GitHub -->
+        <label class="social-link">GitHub</label>
+      </div>
+    </nav>
+  </div>
   <script>
+    
     let array_target = "https://github.com/Tecnosamba21/arrays-library-for-python"
     let sampad_target = "https://github.com/Tecnosamba21/sampad"
+    let github = "https://github.com/Tecnosamba21"
+    let nav = document.querySelector(".nav-div")
+
+    nav.classList.toggle('hidden')
 
     const menu = document.querySelector('.menu')
 
@@ -44,9 +47,11 @@
       window.open(target, '_blank')
     }
     function press_menu() {
-        
+      let nav = document.querySelector(".nav-div")
+      nav.classList.toggle('hidden')
     }
   </script>
+
   <img src="leia.jpeg" alt="logo" width="5%" height="auto" onclick="imgclick()" id="logo"><label id="tecnosambalabel">  <a href="https://github.com/Tecnosamba21">@Tecnosamba21</a></label>
   <h1>Hello everyone to my web page!</h1>
   <p>
