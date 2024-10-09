@@ -129,3 +129,29 @@ h2 {
 .social-link:hover {
     background-color: white;
 }
+
+.news {
+    width: 1000px;
+    height: 270px;
+    margin-left: 7%;
+    border-radius: 9%;
+}
+
+.news-title {
+    font-family: Protest Strike;
+    background: linear-gradient(to left, rgb(0, 225, 255), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 3%;
+}
+
+.news-text {
+    padding-left: 3%;
+}
+
+.news-more {
+    border: 0;
+    border-radius: 40%;
+    color: transparent;
+    margin-left: 3%;
+}
