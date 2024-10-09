@@ -110,7 +110,9 @@ h2 {
     background-color: grey;
     border-radius: 10%;
     width: 200px;
-    height: 270px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hidden {
@@ -121,6 +123,7 @@ h2 {
     font-size: 150%;
     font-family: Protest Guerrilla;
     border-radius: 10%;
+    flex: 1;
 }
 
 .social-link:hover {
