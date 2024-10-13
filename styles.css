@@ -32,12 +32,45 @@ h2 {
     background: linear-gradient(to bottom, rgb(72, 255, 0), rgb(47, 0, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: 10%;
 }
 
-#logo {
+.logo-div {
+    position: relative;
+    width: 5%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(-30deg) skew(25deg);
+    margin-top: 6%;
+}
+
+.logo {
   border-radius: 50%;
   border: 2px solid #000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.logo-div:hover img:nth-child(4) {
+    transform: translate(120px,-120px);
+    opacity: 1;
+}
+
+.logo-div:hover img:nth-child(3) {
+    transform: translate(90px,-90px);
+    opacity: .8;
+}
+
+.logo-div:hover img:nth-child(2) {
+    transform: translate(60px,-60px);
+    opacity: .6;
+}
+
+.logo-div:hover img:nth-child(1) {
+    transform: translate(30px,-30px);
+    opacity: .4;
 }
 
 .repo-div {
@@ -46,6 +79,11 @@ h2 {
     /*background-image: linear-gradient(to right, rgb(81, 255, 0), rgb(248, 150, 248));*/
     border-radius: 10%;
     position: absolute;
+    transition: 0.5s;
+}
+
+.repo-div:hover {
+    box-shadow: 0 7px 7px white;
 }
 
 .repo-title {
@@ -76,7 +114,9 @@ h2 {
 
 .news-div {
     margin-top: 30%;
+    transition: 0.5s;
 }
+
 
 .menu-button {
     position: fixed;
@@ -88,18 +128,18 @@ h2 {
     border: none;
     cursor: pointer;
     margin-left: 90%;
-  }
+}
   .menu-button:hover {
     background-color: white;
-  }
+}
   
-  .menu-button span {
+.menu-button span {
     display: block;
     height: 2px;
     width: 30px;
     margin: 7px 0;
     background: #333;
-  }
+}
 
 
 
@@ -135,6 +175,11 @@ h2 {
     height: 270px;
     margin-left: 7%;
     border-radius: 9%;
+    transition: 0.5s;
+}
+
+.news:hover {
+    box-shadow: 0 7px 7px white;
 }
 
 .news-title {
