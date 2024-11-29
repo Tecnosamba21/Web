@@ -15,7 +15,7 @@
 #pos-welcome {
     font-family: "Audiowide", sans-serif;
     font-size: 150%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 #typing-text {
@@ -81,7 +81,6 @@
 #logo {
     height: 7vh;
     width: auto;
-    border-radius: 100%;
 }
 
 #products-container {
